@@ -1,0 +1,15 @@
+﻿# Проигнорируйте файлы, находящиеся в подкаталоге tmp 
+/1.2. Site For Import/tmp/
+
+# и файлы, заканчивающиеся суффиксами _old, _backup
+*_old
+*_backup
+
+# Добейтесь чтобы также были проигнорированы файлы Thumbs.db и .DS_Store
+Thumbs.db
+.DS_Store
+
+# sorce .zip not need
+# *.zip
+# at now time, not this rule in task 
+
